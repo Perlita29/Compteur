@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compteur – Sachez ce qui manque avant d’en avoir besoin</title>
+<meta name="description" content="Suivi du matériel et des consommables pour la santé et le sport : alertes de seuil, liste de réapprovisionnement automatique. Accès anticipé, 29 € par mois et par site.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Compteur – Plus de rupture de matériel">
+<meta property="og:description" content="Alertes de seuil et liste de réapprovisionnement automatique. Accès anticipé, remboursé 30 jours.">
+<meta property="og:locale" content="fr_FR">
+<meta name="theme-color" content="#10243E">
+<style>
+:root{--encre:#10243E;--signal:#FFC400;--fond:#F7F7F4;--gris:#5B6672;--trait:#D9DCDF;--alerte:#C62828}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--fond);color:var(--encre);font:17px/1.55 "Helvetica Neue",Arial,sans-serif}
+.w{max-width:620px;margin:0 auto;padding:0 20px}
+header{padding:18px 0;border-bottom:1px solid var(--trait)}
+.logo{font-weight:800;font-size:20px;letter-spacing:-.02em}
+.logo i{display:inline-block;width:10px;height:10px;background:var(--signal);margin-right:8px;border:2px solid var(--encre)}
+h1{font-size:clamp(32px,9vw,48px);line-height:1.05;letter-spacing:-.035em;font-weight:800;margin:36px 0 14px}
+h2{font-size:26px;line-height:1.15;letter-spacing:-.025em;font-weight:800;margin:0 0 14px}
+p{margin:0 0 14px}
+.lead{font-size:19px;color:var(--gris)}
+.btn{display:block;width:100%;text-align:center;background:var(--signal);color:var(--encre);font-weight:800;font-size:18px;text-decoration:none;padding:18px 16px;border:2px solid var(--encre);border-radius:4px;box-shadow:4px 4px 0 var(--encre)}
+.btn:active{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--encre)}
+.btn:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--encre);outline-offset:3px}
+.sous{font-size:14px;color:var(--gris);text-align:center;margin:12px 0 0}
+.jauge{background:#fff;border:2px solid var(--encre);border-radius:4px;padding:16px;margin:32px 0}
+.ligne{display:flex;justify-content:space-between;font-size:15px;font-weight:700}
+.ligne span:last-child{color:var(--alerte)}
+.barre{position:relative;height:14px;background:#E8EAEC;margin:10px 0 8px}
+.barre b{position:absolute;left:0;top:0;bottom:0;width:18%;background:var(--alerte)}
+.barre u{position:absolute;left:40%;top:-5px;bottom:-5px;border-left:2px dashed var(--encre)}
+.note{font-size:13px;color:var(--gris);margin:0}
+section{padding:32px 0;border-top:1px solid var(--trait)}
+ul.b{list-style:none;padding:0;margin:0}
+ul.b li{padding:14px 0;border-bottom:1px solid var(--trait)}
+ul.b li:last-child{border:0}
+ul.b strong{display:block;font-size:18px}
+.offre{background:var(--encre);color:#fff;padding:26px 20px;border-radius:4px}
+.offre h2{color:#fff}
+.prix{font-size:52px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.prix small{font-size:18px;font-weight:600;letter-spacing:0}
+.jour{color:var(--signal);font-weight:700;margin:6px 0 18px}
+.offre ul{padding-left:20px;margin:0 0 20px}
+.offre li{margin-bottom:8px}
+.garantie{border:2px solid var(--signal);padding:14px;border-radius:4px;margin:0 0 20px}
+.offre .sous{color:#C9D2DD}
+details{border-bottom:1px solid var(--trait);padding:14px 0}
+summary{font-weight:700;cursor:pointer;list-style:none;padding-right:24px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;font-size:22px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin:10px 0 0;color:var(--gris)}
+footer{padding:28px 0 60px;border-top:1px solid var(--trait);font-size:14px;color:var(--gris)}
+footer details{border:0;padding:8px 0}
+footer summary{font-weight:600;color:var(--encre)}
+.ph{background:#FFF3B0;padding:0 3px;font-weight:700;color:var(--encre)}
+</style>
+</head>
+<body>
+
+<header><div class="w"><span class="logo"><i></i>Compteur</span></div></header>
+
+<main class="w">
+
+<h1>Sachez ce qui manque avant d’en avoir besoin.</h1>
+<p class="lead">Compteur suit votre matériel et vos consommables, vous prévient avant la rupture et prépare votre liste de réapprovisionnement. Fini les commandes en urgence, plus chères, pendant que le client attend.</p>
+<a class="btn" href="https://buy.stripe.com/test_9B66oH2T429meb52jZ93y00">Réserver ma place – 29 €/mois</a>
+<p class="sous">Accès anticipé · remboursé sous 30 jours · sans engagement</p>
+
+<div class="jauge" aria-label="Exemple d’alerte de seuil">
+  <div class="ligne"><span>Gants nitrile, boîte de 100</span><span>4 restantes</span></div>
+  <div class="barre"><b></b><u></u></div>
+  <p class="note">Seuil d’alerte : 10. Ajoutée à la liste de réapprovisionnement.</p>
+</div>
+
+<section>
+<h2>Le matériel manque toujours au pire moment.</h2>
+<p>On s’en aperçoit en s’en servant : plus de gel, plus de bandes, plus de gants. La commande part dans l’urgence, le prix grimpe et le client attend. Compteur remplace le « je crois qu’il en reste » par un chiffre fiable.</p>
+</section>
+
+<section>
+<h2>Ce que fait Compteur</h2>
+<ul class="b">
+<li><strong>Entrées et sorties en quelques secondes</strong>Scannez le code-barres ou saisissez la quantité, depuis votre téléphone.</li>
+<li><strong>Une alerte avant la rupture</strong>Fixez un seuil par article. Sous le seuil, l’article passe en alerte.</li>
+<li><strong>Une liste de réapprovisionnement déjà prête</strong>Plus de relevé à la main : la liste se remplit toute seule. L’historique sur trois mois montre ce que vous consommez vraiment.</li>
+</ul>
+</section>
+
+<section id="offre">
+<div class="offre">
+<h2>Accès anticipé</h2>
+<div class="prix">29 €<small> /mois par site</small></div>
+<p class="jour">soit moins d’1 € par jour</p>
+<ul>
+<li>Ouverture prévue sous 3 semaines. Votre accès vous est envoyé par e-mail.</li>
+<li>Vous avez le tarif de lancement tant que vous restez abonné.</li>
+<li>Vous pouvez demander ce dont vous avez besoin : vos retours guident la suite.</li>
+</ul>
+<div class="garantie"><strong>Satisfait ou remboursé 30 jours.</strong> Écrivez à <span class="ph">[VOTRE E-MAIL]</span> dans les 30 jours suivant le paiement. Remboursement intégral sous 7 jours, sans justification.</div>
+<a class="btn" href="https://buy.stripe.com/test_9B66oH2T429meb52jZ93y00">Réserver ma place</a>
+<p class="sous">Sans engagement, résiliable à tout moment. Paiement sécurisé par Stripe.</p>
+</div>
+<p class="note" style="margin-top:14px">Compteur est en construction. Vous réservez une place dans la version de lancement, pas un logiciel déjà ouvert.</p>
+</section>
+
+<section>
+<h2>Questions fréquentes</h2>
+<details><summary>Est-ce que ça marche pour mon activité ?</summary><p>Compteur convient aux cabinets, salles, clubs et structures qui gèrent du matériel ou des consommables en santé et sport. Si ça ne vous convient pas, la garantie de 30 jours s’applique.</p></details>
+<details><summary>Combien de temps ça me prend ?</summary><p>Le principe est de saisir une entrée ou une sortie en quelques secondes, avec un scan ou une quantité. La mise en route consiste à créer vos articles et leurs seuils.</p></details>
+<details><summary>Que se passe-t-il si je veux arrêter ?</summary><p>L’abonnement est sans engagement. Vous pouvez résilier à tout moment, et dans les 30 jours vous pouvez demander le remboursement.</p></details>
+<details><summary>À quoi sert exactement ce que je paie ?</summary><p>Vous payez l’accès à Compteur pour un site : suivi des entrées et sorties, alertes de seuil, liste de réapprovisionnement et historique sur trois mois. Le logiciel ouvre sous 3 semaines, et votre place est réservée dès aujourd’hui.</p></details>
+</section>
+
+</main>
+
+<footer>
+<div class="w">
+<details><summary>Mentions légales</summary><p>Éditeur : <span class="ph">[RAISON SOCIALE / NOM]</span>, <span class="ph">[ADRESSE]</span>, SIRET <span class="ph">[SIRET]</span>. Contact : <span class="ph">[VOTRE E-MAIL]</span>. Directeur de la publication : <span class="ph">[NOM]</span>. Hébergeur : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p></details>
+<details><summary>Conditions générales de vente</summary><p>Objet : abonnement mensuel à Compteur, 29 € par mois et par site<span class="ph">[TVA : à compléter selon votre statut]</span>. Paiement par carte via Stripe, reconduit chaque mois. Résiliation possible à tout moment, effective à la fin de la période payée. Garantie : remboursement intégral sur demande écrite dans les 30 jours suivant le premier paiement. L’accès est ouvert à la date annoncée sur la page ; en cas de retard, vous pouvez demander le remboursement. Droit de rétractation et médiation de la consommation : <span class="ph">[À COMPLÉTER]</span>.</p></details>
+<details><summary>Politique de confidentialité</summary><p>Nous collectons votre adresse e-mail et les données de paiement nécessaires à la commande. Le paiement est traité par Stripe, nous ne voyons jamais votre numéro de carte. Vos données ne sont pas revendues. Pour les consulter ou les supprimer : <span class="ph">[VOTRE E-MAIL]</span>.</p></details>
+<p style="margin-top:18px">© Compteur</p>
+</div>
+</footer>
+
+</body>
+</html>
